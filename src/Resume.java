@@ -86,9 +86,9 @@ public class Resume {
 						int skill3 = in.nextInt();
 					    System.out.println("Enter Photoshop skill from 1 to 10:");
 					    int skill4 = in.nextInt();
-					    System.out.println("Enter Java Programing skil from 1 to 10:");
+					    System.out.println("Enter Java Programing skill from 1 to 10:");
 					    int skill5 = in.nextInt();
-					    System.out.println("Skill: 1."+ skill1 +"\n\t\t2."+skill2 +"\n\t\t3."+skill3 +"\n\t\t4."+skill4 +"\n\t\t5."+skill5 );
+					    System.out.println("Skill: Microsoft word skill="+ skill1 +"\n\tPower point skill="+skill2 +"\n\tExcel skill="+skill3 +"\n\tPhotoshop skill="+skill4 +"\n\tJava Programing skill="+skill5 );
 					    
 					
 					}
