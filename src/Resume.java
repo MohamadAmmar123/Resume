@@ -5,23 +5,21 @@ public class Resume {
 				
 					
 					
-					printName();
-					printAge();
-					printGender();
-					printStatus();
-					printHp();
-					printAddress();
-					printSkill();
-					printWork();
-					printTalents();
-					printGrade();
-					printCGPA();
-					
-					
+			printName();
+			printAge();
+			printGender();
+			printStatus();
+			printHp();
+			printAddress();
+			printSkill();
+			printWork();
+			printTalents();
+			printGrade();
+			printCGPA();
 					
 					
 
-					}
+}
 					
 					public static void printName() {
 						Scanner in = new Scanner (System.in);
@@ -76,21 +74,20 @@ public class Resume {
 						
 					}
 					
-					public static void printSkill() {
-                        Scanner in = new Scanner (System.in);
-                        System.out.print("Enter Microsoft word skill from 1 to 10:");
-                        int skill1 = in.nextInt();
-                        System.out.println("Enter Power point skill from 1 to 10:");
-                        int skill2 = in.nextInt();
-                        System.out.println("Enter Excel skill from 1 to 10:");
-                        int skill3 = in.nextInt();
-                        System.out.println("Enter Photoshop skill from 1 to 10:");
-                        int skill4 = in.nextInt();
-                        System.out.println("Enter Java Programing skill from 1 to 10:");
-                        int skill5 = in.nextInt();
-                        System.out.println("Skill: Microsoft word skill="+ skill1 +"\n\tPower point skill="+skill2 +"\n\tExcel skill="+skill3 +"\n\tPhotoshop skill="+skill4 +"\n\tJava Programing skill="+skill5 );
-					    
 					
+					public static void printSkill() {
+						Scanner in = new Scanner (System.in);
+						System.out.print("Enter Microsoft word skill from 1 to 10:");
+						int skill1 = in.nextInt();
+						System.out.println("Enter Power point skill from 1 to 10:");
+						int skill2 = in.nextInt();
+						System.out.println("Enter Excel skill from 1 to 10:");
+						int skill3 = in.nextInt();
+						System.out.println("Enter Photoshop skill from 1 to 10:");
+						int skill4 = in.nextInt();
+						System.out.println("Enter Java Programing skill from 1 to 10:");
+						int skill5 = in.nextInt();
+						System.out.println("Skill: Microsoft word skill="+ skill1 +"\n\tPower point skill="+skill2 +"\n\tExcel skill="+skill3 +"\n\tPhotoshop skill="+skill4 +"\n\tJava Programing skill="+skill5 );
 					}
 					
 					public static void printWork() {
